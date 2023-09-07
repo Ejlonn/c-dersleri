@@ -6,9 +6,11 @@ int main(){
 
     int x = 5, y = 10;
 
+    printf("x:%d y:%d\n",x,y);
+
     changevalue(x,y);
 
-    printf("x:%d y:%d",x,y);
+    printf("x:%d y:%d\n",x,y); // burda bastırıldığı üzere fonksiyonda değerlerim değişmemiş, yani bu call by value.
 
     return 0;
 }
@@ -21,6 +23,6 @@ void changevalue(int a,int b){
     
     b = temp;
 
-    printf("a: %d b: %d\n",a,b);
+    printf("(F)a: %d b: %d\n",a,b);
 
 }
