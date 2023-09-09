@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "bubblesort.c" ///ilk header file library denemesi
 
-void bubblesort(int array[],int size);
-int max(int array[],int len);
+int max(int *a,int len);
 
 int main(){
  
@@ -34,18 +33,18 @@ int main(){
 
 }
 
-int max(int array[],int len){
+int max(int *a,int len){
 
-    int maks = array[0];
+    int maks = *a;
     int i;
 
-    for(i=1; i < len ; i++);
-        if(array[i] > maks){
+    for(i=1; i < len ; i++){
+        if(a[i] > maks){
 
-            maks= array[i];
+            maks= a[i];
         }
 
-    return maks; 
-
-
+    
+    }
+    return maks;
 }
