@@ -7,6 +7,7 @@ struct Player
     char name[12];
 };
 
+
 int main(){
 
 
