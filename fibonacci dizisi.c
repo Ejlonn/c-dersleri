@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* fibonacci serisi 0 1 1 2 3 5 8 13 21 ....    bir a1 var, bir a2 var bi a3var, i döngü deðiþkenim var ve kullanýcýnýn gireceði max deðerim var bu da num olsun
-fibonacci serisi sürekli bi öncekiyle toplayarak diðer deðeri elde eder yani
+/* fibonacci serisi 0 1 1 2 3 5 8 13 21 ....    bir a1 var, bir a2 var bi a3var, i dï¿½ngï¿½ deï¿½iï¿½kenim var ve kullanï¿½cï¿½nï¿½n gireceï¿½i max deï¿½erim var bu da num olsun
+fibonacci serisi sï¿½rekli bi ï¿½ncekiyle toplayarak diï¿½er deï¿½eri elde eder yani
 
 a1 
 a2
-    bu ikisini printledik, yani döngü deðiþkenimizi 3. deðerden baþlatýcaz.
+    bu ikisini printledik, yani dï¿½ngï¿½ deï¿½iï¿½kenimizi 3. deï¿½erden baï¿½latï¿½caz.
 
 
 a3= a1+a2;
-burda for döngüsü içinde
+burda for dï¿½ngï¿½sï¿½ iï¿½inde
 	
  		for(i=3; i<num;i++){
 		 
@@ -19,13 +19,13 @@ burda for döngüsü içinde
 			 a1= a2;
 			 a2=a3 ;
 		}
-	böyle olunca
+	bï¿½yle olunca
 	
-	a3üm artýk 0+1 den 1 oldu
+	a3ï¿½m artï¿½k 0+1 den 1 oldu
 	1 printlendi 3.terimim
-	a1 yani 0ý a2ye eþitledim artýk a1 = 1 oldu
-	a2 yi de printlenen a3e yani 1 e eþitledim 
-	bir sonraki döngüce a3 1+1 yani a1+a2 toplamýndan 2 olucak ve döngü devam edicek.
+	a1 yani 0ï¿½ a2ye eï¿½itledim artï¿½k a1 = 1 oldu
+	a2 yi de printlenen a3e yani 1 e eï¿½itledim 
+	bir sonraki dï¿½ngï¿½ce a3 1+1 yani a1+a2 toplamï¿½ndan 2 olucak ve dï¿½ngï¿½ devam edicek.
 */
 int main(){
 	
