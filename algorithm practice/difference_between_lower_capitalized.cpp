@@ -4,11 +4,11 @@ int isCapitalized(char ch){
 	
 		if(ch >= 'a' && ch <= 'z')
 		{
-			return 1;
+			return 0;
 		}
 		else if (ch >='A'&& ch <='Z')
 		{
-			return 0;
+			return 1;
 		}
 		
 }

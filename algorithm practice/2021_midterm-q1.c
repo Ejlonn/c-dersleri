@@ -6,7 +6,7 @@ int main(){
 
     while(1)
     {
-        printf("Sayi giriniz. Cikmak icin negatif sayi girebilirsiniz.");
+        printf("Sayi giriniz. Cikmak icin negatif sayi girebilirsiniz: ");
         
         scanf("%d",&num);
         check++;
@@ -23,7 +23,7 @@ int main(){
         temp2=num;
         
     }
-    printf("%d",ctr);
+    printf("Kendisinden onceki 2 sayinin toplamina esit olan input sayisi: %d",ctr);
 
     return 0;
 }
